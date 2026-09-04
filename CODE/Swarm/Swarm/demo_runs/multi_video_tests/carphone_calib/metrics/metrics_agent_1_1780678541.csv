@@ -1,0 +1,16 @@
+agent_id,frame,decision,sim,stored_label,used_packet_agent,used_packet_ts,local_backbone,local_embedding_dim,used_packet_model_name,used_packet_model_version,used_packet_detection_id,used_packet_coordinates,cross_agent_reuse,heavy_label,heavy_confidence,heavy_coordinates,packet_detection_id,heavy_latency_ms,heavy_detector_mode
+agent_1,1,heavy,,,,,resnet18,256,,,,,0,Background,0.6,,agent_1_frame1_1780678540448,7.347300008405,opencv_hog
+agent_1,2,heavy,,,,,resnet18,256,,,,,0,Background,0.6,,agent_1_frame2_1780678540488,1.366899989079684,opencv_hog
+agent_1,3,heavy,,,,,resnet18,256,,,,,0,Background,0.6,,agent_1_frame3_1780678540525,1.0753999813459814,opencv_hog
+agent_1,4,heavy,,,,,resnet18,256,,,,,0,Background,0.6,,agent_1_frame4_1780678540560,0.887200003489852,opencv_hog
+agent_1,5,heavy,,,,,resnet18,256,,,,,0,Background,0.6,,agent_1_frame5_1780678540599,1.132100005634129,opencv_hog
+agent_1,6,heavy,,,,,resnet18,256,,,,,0,Background,0.6,,agent_1_frame6_1780678540643,1.3122999807819724,opencv_hog
+agent_1,7,heavy,,,,,resnet18,256,,,,,0,Background,0.6,,agent_1_frame7_1780678540699,1.2944000191055238,opencv_hog
+agent_1,8,heavy,,,,,resnet18,256,,,,,0,Background,0.6,,agent_1_frame8_1780678540753,2.333400014322251,opencv_hog
+agent_1,9,heavy,,,,,resnet18,256,,,,,0,Background,0.6,,agent_1_frame9_1780678540808,1.6576999914832413,opencv_hog
+agent_1,10,heavy,,,,,resnet18,256,,,,,0,Background,0.6,,agent_1_frame10_1780678540883,1.3358999858610332,opencv_hog
+agent_1,11,heavy,,,,,resnet18,256,,,,,0,Background,0.6,,agent_1_frame11_1780678540951,2.4520999868400395,opencv_hog
+agent_1,12,heavy,,,,,resnet18,256,,,,,0,Background,0.6,,agent_1_frame12_1780678541025,1.2400000123307109,opencv_hog
+agent_1,13,heavy,,,,,resnet18,256,,,,,0,Background,0.6,,agent_1_frame13_1780678541090,1.1795000173151493,opencv_hog
+agent_1,14,heavy,,,,,resnet18,256,,,,,0,Background,0.6,,agent_1_frame14_1780678541171,1.4163999585434794,opencv_hog
+agent_1,15,heavy,,,,,resnet18,256,,,,,0,Background,0.6,,agent_1_frame15_1780678541281,1.3108999701216817,opencv_hog

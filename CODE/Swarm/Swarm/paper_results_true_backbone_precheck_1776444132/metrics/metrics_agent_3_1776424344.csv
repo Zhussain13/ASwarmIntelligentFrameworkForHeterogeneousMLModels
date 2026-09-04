@@ -1,0 +1,9 @@
+agent_id,frame,decision,sim,stored_label,used_packet_agent,used_packet_ts,local_backbone,local_embedding_dim,used_packet_model_name,used_packet_model_version,cross_agent_reuse,heavy_label,heavy_confidence,heavy_latency_ms,heavy_detector_mode
+agent_3,1,heavy,,,,,efficientnet_b0,256,,,0,Person,0.8810703704062958,171.73599998932332,opencv_hog
+agent_3,2,skipped,1.0000001192092896,Person,agent_3,1776424343.5876076,efficientnet_b0,256,efficientnet_b0,torchvision,0,,,,opencv_hog
+agent_3,3,skipped,1.0000001192092896,Person,agent_3,1776424343.5876076,efficientnet_b0,256,efficientnet_b0,torchvision,0,,,,opencv_hog
+agent_3,4,skipped,1.0000001192092896,Person,agent_3,1776424343.5876076,efficientnet_b0,256,efficientnet_b0,torchvision,0,,,,opencv_hog
+agent_3,5,skipped,1.0000001192092896,Person,agent_3,1776424343.5876076,efficientnet_b0,256,efficientnet_b0,torchvision,0,,,,opencv_hog
+agent_3,6,skipped,1.0000001192092896,Person,agent_3,1776424343.5876076,efficientnet_b0,256,efficientnet_b0,torchvision,0,,,,opencv_hog
+agent_3,7,skipped,1.0000001192092896,Person,agent_3,1776424343.5876076,efficientnet_b0,256,efficientnet_b0,torchvision,0,,,,opencv_hog
+agent_3,8,skipped,1.0000001192092896,Person,agent_3,1776424343.5876076,efficientnet_b0,256,efficientnet_b0,torchvision,0,,,,opencv_hog

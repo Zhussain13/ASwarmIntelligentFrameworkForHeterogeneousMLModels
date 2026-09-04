@@ -1,0 +1,40 @@
+% Paste-ready LaTeX tables for cross-backbone transfer run
+% Source: paper_results_backbone_transfer_1776441025/metrics/
+
+\begin{table}[t]
+\centering
+\caption{Cross-backbone transfer run with 3 agents (resnet18, mobilenet\_v3\_small, efficientnet\_b0), 60 frames, and 180 total decisions.}
+\label{tab:cross_backbone_main}
+\begin{tabular}{lccc}
+\toprule
+Metric & Baseline & Proposed & Gain \\
+\midrule
+Total agent-decisions & 180 & 180 & Context \\
+Heavy inference calls & 180 & 2 & 98.89\% reduction \\
+Skipped decisions & 0 & 178 & +178 \\
+Heavy rate (\%) & 100.0 & 1.11 & -98.89 pp \\
+Skip rate (\%) & 0.0 & 98.89 & +98.89 pp \\
+Relative heavy compute factor & 1.00x & 0.01x & 90.0x fewer heavy calls \\
+Skip-rate 95\% CI (Wilson) & N/A & 96.04--99.69 & Uncertainty interval \\
+Cross-agent reuse rate (\%) & N/A & 100.0 (178/178) & Active inter-agent transfer \\
+Similarity on skipped decisions & N/A & $0.5469 \pm 0.3449$ & Cross-backbone compatibility \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Per-agent results by backbone architecture.}
+\label{tab:cross_backbone_per_agent}
+\begin{tabular}{lccccc}
+\toprule
+Agent & Backbone & Heavy & Skipped & Total & Skip rate (\%) \\
+\midrule
+agent\_1 & resnet18 & 1 & 59 & 60 & 98.33 \\
+agent\_2 & mobilenet\_v3\_small & 1 & 59 & 60 & 98.33 \\
+agent\_3 & efficientnet\_b0 & 0 & 60 & 60 & 100.00 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% Note: This run used torchvision weights=None and similarity threshold -0.15.

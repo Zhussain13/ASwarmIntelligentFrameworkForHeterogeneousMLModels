@@ -1,0 +1,4 @@
+accuracy_delta,after_accuracy,after_loss,backbone,before_accuracy,before_loss,epochs,loss_delta,lr,model_path,negative_samples,positive_samples,samples,status
+0.3999999761581421,1.0,0.2683151066303253,resnet18,0.6000000238418579,0.6931703686714172,35,0.4248552620410919,0.01,D:\TA\M.Tech\4 sem\Major Project\Swarm\Swarm\demo_runs\video_calib\artifacts\student_heads\resnet18_student_head.npz,24,36,60,ok
+0.1499999761581421,1.0,0.21875642240047455,mobilenet_v3_small,0.8500000238418579,0.6753673553466797,35,0.45661093294620514,0.01,D:\TA\M.Tech\4 sem\Major Project\Swarm\Swarm\demo_runs\video_calib\artifacts\student_heads\mobilenet_v3_small_student_head.npz,24,36,60,ok
+0.5,1.0,0.21102172136306763,efficientnet_b0,0.5,0.6932550668716431,35,0.48223334550857544,0.01,D:\TA\M.Tech\4 sem\Major Project\Swarm\Swarm\demo_runs\video_calib\artifacts\student_heads\efficientnet_b0_student_head.npz,24,36,60,ok

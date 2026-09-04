@@ -1,0 +1,7 @@
+detection_id,label,source_agent,source_model,source_confidence,best_agent,best_model,best_confidence,agreement_count
+agent_1_frame1_1782804552282,Person,agent_1,resnet18,0.8810703704062958,agent_2,mobilenet_v3_small,0.8940424499471176,3
+agent_1_frame47_1782804584662,Person,agent_1,resnet18,0.9544197040753171,agent_1,resnet18,0.9544197040753171,2
+agent_2_frame1_1782804553344,Person,agent_2,mobilenet_v3_small,0.8810703704062958,agent_1,resnet18,0.8940424499471176,3
+agent_2_frame49_1782804583755,Person,agent_2,mobilenet_v3_small,0.9844451781546176,agent_2,mobilenet_v3_small,0.9844451781546176,2
+agent_3_frame33_1782804584610,Person,agent_3,efficientnet_b0,0.9855745603899835,agent_3,efficientnet_b0,0.9855745603899835,3
+agent_3_frame73_1782804615152,Person,agent_3,efficientnet_b0,0.9806380994913294,agent_3,efficientnet_b0,0.9806380994913294,1

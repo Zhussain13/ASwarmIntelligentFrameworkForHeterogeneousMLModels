@@ -1,0 +1,54 @@
+{
+  "timestamp": 1780666426,
+  "num_agents": 3,
+  "mode": "synthetic",
+  "video": null,
+  "max_frames": 50,
+  "seed": 42,
+  "stagger": 0.2,
+  "hetero_embedding_mode": "none",
+  "embedding_dims": [
+    256,
+    256,
+    256
+  ],
+  "hetero_backbone_mode": "diverse",
+  "requested_backbones": [
+    "resnet18",
+    "mobilenet_v3_small",
+    "efficientnet_b0"
+  ],
+  "actual_backbones": {
+    "agent_1": "resnet18",
+    "agent_2": "mobilenet_v3_small",
+    "agent_3": "efficientnet_b0"
+  },
+  "prefer_peer_transfer": true,
+  "use_pretrained_backbone": false,
+  "similarity_threshold": 0.85,
+  "confidence_threshold": 0.8,
+  "heavy_detector": "simulated",
+  "calibrate_frames": 10,
+  "calibrate_epochs": 8,
+  "calibrate_lr": 0.001,
+  "calibration_log": [
+    {
+      "agent_id": "agent_2",
+      "backbone": "mobilenet_v3_small",
+      "status": "ok",
+      "samples": 10,
+      "epochs": 8,
+      "lr": 0.001,
+      "loss": 0.006383067928254604
+    },
+    {
+      "agent_id": "agent_3",
+      "backbone": "efficientnet_b0",
+      "status": "ok",
+      "samples": 10,
+      "epochs": 8,
+      "lr": 0.001,
+      "loss": 0.004971865098923445
+    }
+  ]
+}

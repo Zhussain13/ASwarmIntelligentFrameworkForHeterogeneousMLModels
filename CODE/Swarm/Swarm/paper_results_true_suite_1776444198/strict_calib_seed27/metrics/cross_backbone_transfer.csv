@@ -1,0 +1,3 @@
+used_packet_model_name,efficientnet_b0,mobilenet_v3_small,resnet18
+mobilenet_v3_small,3,0,72
+resnet18,77,79,7

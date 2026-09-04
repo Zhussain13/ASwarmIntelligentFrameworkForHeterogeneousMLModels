@@ -1,0 +1,4 @@
+detection_id,label,source_agent,source_model,source_confidence,best_agent,best_model,best_confidence,agreement_count
+agent_1_frame1_1782804513108,Person,agent_1,resnet18,0.8810703704062958,agent_1,resnet18,0.8810703704062958,1
+agent_2_frame1_1782804513884,Person,agent_2,mobilenet_v3_small,0.8810703704062958,agent_2,mobilenet_v3_small,0.8810703704062958,1
+agent_3_frame1_1782804514060,Person,agent_3,efficientnet_b0,0.8810703704062958,agent_3,efficientnet_b0,0.8810703704062958,1

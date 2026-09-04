@@ -1,0 +1,28 @@
+% Paste-ready LaTeX for strict true-experiment suite
+\begin{table}[t]
+\centering
+\caption{Strict cross-backbone suite summary (mean $\pm$ std over 3 seeds per condition).}
+\label{tab:strict_suite_summary}
+\begin{tabular}{lcccc}
+\toprule
+Condition & Skip rate (\%) & Heavy calls/run & Cross-agent reuse (\%) & Similarity mean \\
+\midrule
+Strict no calibration & 98.75 $\pm$ 0.00 & 3.00 $\pm$ 0.00 & 0.00 $\pm$ 0.00 & 0.9861 $\pm$ 0.0002 \\
+Strict with calibration & 99.31 $\pm$ 0.24 & 1.67 $\pm$ 0.58 & 73.72 $\pm$ 20.80 & 0.9888 $\pm$ 0.0010 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[t]
+\centering
+\caption{Representative cross-backbone transfer matrix (strict\_calib\_seed27).}
+\label{tab:strict_suite_matrix}
+\begin{tabular}{lccc}
+\toprule
+Source backbone & efficientnet\_b0 & mobilenet\_v3\_small & resnet18 \\
+\midrule
+mobilenet\_v3\_small & 3 & 0 & 72 \\
+resnet18 & 77 & 79 & 7 \\
+\bottomrule
+\end{tabular}
+\end{table}

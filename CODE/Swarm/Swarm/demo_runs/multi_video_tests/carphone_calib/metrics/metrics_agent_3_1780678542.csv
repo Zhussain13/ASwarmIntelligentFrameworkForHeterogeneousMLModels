@@ -1,0 +1,16 @@
+agent_id,frame,decision,sim,stored_label,used_packet_agent,used_packet_ts,local_backbone,local_embedding_dim,used_packet_model_name,used_packet_model_version,used_packet_detection_id,used_packet_coordinates,cross_agent_reuse,heavy_label,heavy_confidence,heavy_coordinates,packet_detection_id,heavy_latency_ms,heavy_detector_mode
+agent_3,1,heavy,,,,,efficientnet_b0,256,,,,,0,Background,0.6,,agent_3_frame1_1780678540949,4.205100005492568,opencv_hog
+agent_3,2,heavy,,,,,efficientnet_b0,256,,,,,0,Background,0.6,,agent_3_frame2_1780678541100,1.742200052831322,opencv_hog
+agent_3,3,heavy,,,,,efficientnet_b0,256,,,,,0,Background,0.6,,agent_3_frame3_1780678541294,1.38079997850582,opencv_hog
+agent_3,4,heavy,,,,,efficientnet_b0,256,,,,,0,Background,0.6,,agent_3_frame4_1780678541376,1.2248000130057335,opencv_hog
+agent_3,5,heavy,,,,,efficientnet_b0,256,,,,,0,Background,0.6,,agent_3_frame5_1780678541456,1.2826999882236123,opencv_hog
+agent_3,6,heavy,,,,,efficientnet_b0,256,,,,,0,Background,0.6,,agent_3_frame6_1780678541540,1.1243000044487417,opencv_hog
+agent_3,7,heavy,,,,,efficientnet_b0,256,,,,,0,Background,0.6,,agent_3_frame7_1780678541597,1.2037000269629061,opencv_hog
+agent_3,8,heavy,,,,,efficientnet_b0,256,,,,,0,Background,0.6,,agent_3_frame8_1780678541661,1.5260999789461493,opencv_hog
+agent_3,9,heavy,,,,,efficientnet_b0,256,,,,,0,Background,0.6,,agent_3_frame9_1780678541727,1.181800034828484,opencv_hog
+agent_3,10,heavy,,,,,efficientnet_b0,256,,,,,0,Background,0.6,,agent_3_frame10_1780678541777,1.2931000092066824,opencv_hog
+agent_3,11,heavy,,,,,efficientnet_b0,256,,,,,0,Background,0.6,,agent_3_frame11_1780678541817,1.0050999699160457,opencv_hog
+agent_3,12,heavy,,,,,efficientnet_b0,256,,,,,0,Background,0.6,,agent_3_frame12_1780678541865,1.0857000015676022,opencv_hog
+agent_3,13,heavy,,,,,efficientnet_b0,256,,,,,0,Background,0.6,,agent_3_frame13_1780678541919,1.3560000224970281,opencv_hog
+agent_3,14,heavy,,,,,efficientnet_b0,256,,,,,0,Background,0.6,,agent_3_frame14_1780678541962,1.2209999840706587,opencv_hog
+agent_3,15,heavy,,,,,efficientnet_b0,256,,,,,0,Background,0.6,,agent_3_frame15_1780678542016,1.0873000137507915,opencv_hog

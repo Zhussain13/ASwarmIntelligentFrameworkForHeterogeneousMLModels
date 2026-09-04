@@ -1,0 +1,54 @@
+{
+  "timestamp": 1776424545,
+  "num_agents": 3,
+  "mode": "video",
+  "video": "d:\\Swarm\\data\\video_for_swarm.avi",
+  "max_frames": 80,
+  "seed": 17,
+  "stagger": 0.1,
+  "hetero_embedding_mode": "none",
+  "embedding_dims": [
+    256,
+    256,
+    256
+  ],
+  "hetero_backbone_mode": "diverse",
+  "requested_backbones": [
+    "resnet18",
+    "mobilenet_v3_small",
+    "efficientnet_b0"
+  ],
+  "actual_backbones": {
+    "agent_1": "resnet18",
+    "agent_2": "mobilenet_v3_small",
+    "agent_3": "efficientnet_b0"
+  },
+  "prefer_peer_transfer": true,
+  "use_pretrained_backbone": true,
+  "similarity_threshold": 0.85,
+  "confidence_threshold": 0.8,
+  "heavy_detector": "opencv_hog",
+  "calibrate_frames": 15,
+  "calibrate_epochs": 12,
+  "calibrate_lr": 0.001,
+  "calibration_log": [
+    {
+      "agent_id": "agent_2",
+      "backbone": "mobilenet_v3_small",
+      "status": "ok",
+      "samples": 15,
+      "epochs": 12,
+      "lr": 0.001,
+      "loss": 0.00039788283174857497
+    },
+    {
+      "agent_id": "agent_3",
+      "backbone": "efficientnet_b0",
+      "status": "ok",
+      "samples": 15,
+      "epochs": 12,
+      "lr": 0.001,
+      "loss": 0.0002811503072734922
+    }
+  ]
+}

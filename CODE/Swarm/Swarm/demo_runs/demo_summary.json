@@ -1,0 +1,24 @@
+[
+  {
+    "output_dir": "D:\\TA\\M.Tech\\4 sem\\Major Project\\Swarm\\Swarm\\demo_runs\\video_no_calib",
+    "total_decisions": 240,
+    "heavy_calls": 3,
+    "skipped_calls": 237,
+    "skip_rate_pct": 98.75,
+    "cross_agent_reuse_count": 0,
+    "cross_agent_reuse_rate_pct": 0.0,
+    "calibration_rows": 0,
+    "calibration_ok_rows": 0
+  },
+  {
+    "output_dir": "D:\\TA\\M.Tech\\4 sem\\Major Project\\Swarm\\Swarm\\demo_runs\\video_calib",
+    "total_decisions": 240,
+    "heavy_calls": 6,
+    "skipped_calls": 234,
+    "skip_rate_pct": 97.5,
+    "cross_agent_reuse_count": 197,
+    "cross_agent_reuse_rate_pct": 84.188,
+    "calibration_rows": 2,
+    "calibration_ok_rows": 2
+  }
+]

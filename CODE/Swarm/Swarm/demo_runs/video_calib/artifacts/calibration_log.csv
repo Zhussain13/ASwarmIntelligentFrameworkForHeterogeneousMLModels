@@ -1,0 +1,3 @@
+agent_id,backbone,status,samples,epochs,lr,loss
+agent_2,mobilenet_v3_small,ok,15,12,0.001,0.0003869998618029058
+agent_3,efficientnet_b0,ok,15,12,0.001,0.00026692665414884686

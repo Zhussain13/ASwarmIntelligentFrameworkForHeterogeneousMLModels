@@ -1,0 +1,4 @@
+agent_id,heavy,skipped,total,skip_rate_percent
+agent_1,1,19,20,95.0
+agent_2,1,19,20,95.0
+agent_3,1,19,20,95.0

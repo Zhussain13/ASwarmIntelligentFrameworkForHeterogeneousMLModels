@@ -1,0 +1,16 @@
+agent_id,frame,decision,sim,stored_label,used_packet_agent,used_packet_ts,local_backbone,local_embedding_dim,used_packet_model_name,used_packet_model_version,used_packet_detection_id,used_packet_coordinates,cross_agent_reuse,heavy_label,heavy_confidence,heavy_coordinates,packet_detection_id,heavy_latency_ms,heavy_detector_mode
+agent_2,1,heavy,,,,,mobilenet_v3_small,256,,,,,0,Background,0.6,,agent_2_frame1_1780678529496,14.660899993032217,opencv_hog
+agent_2,2,heavy,,,,,mobilenet_v3_small,256,,,,,0,Background,0.6,,agent_2_frame2_1780678529560,15.55089995963499,opencv_hog
+agent_2,3,heavy,,,,,mobilenet_v3_small,256,,,,,0,Background,0.6,,agent_2_frame3_1780678529706,100.8977000019513,opencv_hog
+agent_2,4,heavy,,,,,mobilenet_v3_small,256,,,,,0,Background,0.6,,agent_2_frame4_1780678529792,14.776600000914186,opencv_hog
+agent_2,5,heavy,,,,,mobilenet_v3_small,256,,,,,0,Background,0.6,,agent_2_frame5_1780678529874,16.901199996937066,opencv_hog
+agent_2,6,heavy,,,,,mobilenet_v3_small,256,,,,,0,Background,0.6,,agent_2_frame6_1780678529948,17.280400032177567,opencv_hog
+agent_2,7,heavy,,,,,mobilenet_v3_small,256,,,,,0,Background,0.6,,agent_2_frame7_1780678530036,15.325099986512214,opencv_hog
+agent_2,8,heavy,,,,,mobilenet_v3_small,256,,,,,0,Background,0.6,,agent_2_frame8_1780678530112,13.902599981520325,opencv_hog
+agent_2,9,heavy,,,,,mobilenet_v3_small,256,,,,,0,Background,0.6,,agent_2_frame9_1780678530195,13.923400023486465,opencv_hog
+agent_2,10,heavy,,,,,mobilenet_v3_small,256,,,,,0,Background,0.6,,agent_2_frame10_1780678530253,17.69459998467937,opencv_hog
+agent_2,11,heavy,,,,,mobilenet_v3_small,256,,,,,0,Background,0.6,,agent_2_frame11_1780678530302,13.272000011056662,opencv_hog
+agent_2,12,heavy,,,,,mobilenet_v3_small,256,,,,,0,Background,0.6,,agent_2_frame12_1780678530362,13.402300013694912,opencv_hog
+agent_2,13,heavy,,,,,mobilenet_v3_small,256,,,,,0,Background,0.6,,agent_2_frame13_1780678530421,13.570600014645606,opencv_hog
+agent_2,14,heavy,,,,,mobilenet_v3_small,256,,,,,0,Background,0.6,,agent_2_frame14_1780678530480,14.380000007804483,opencv_hog
+agent_2,15,heavy,,,,,mobilenet_v3_small,256,,,,,0,Background,0.6,,agent_2_frame15_1780678530556,14.528900035656989,opencv_hog
